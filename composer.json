@@ -1,7 +1,7 @@
 {
   "name": "opencode/http",
   "description": "",
-  "homepage": "http://alvesdouglas.com.br/",
+  "homepage": "https://github.com/alvesdouglaz/opencode-http",
   "keywords": [ "umbrella",  "backfront", "skelleton", "opencode", "framework"],
   "license": "Apache-2.0",
   "authors": [
