@@ -28,8 +28,6 @@ namespace Opencode\Http
         //Traits
         use Singleton;
 
-        private static $instance;
-
         /**
          * Constructor - Define some variables.
          */
@@ -85,6 +83,7 @@ namespace Opencode\Http
             $this->cookies = $_COOKIE;
             $x_requested_with = isset($this->headers['x_requested_with']) ? $this->headers['x_requested_with'] : false;
             $this->ajax = $x_requested_with === 'XMLHttpRequest';
+            $this->urlFragment = null;
 
             return $this;
         }

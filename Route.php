@@ -589,7 +589,7 @@ namespace Opencode\Http
                 if(is_callable($callback) && $callback instanceof \Closure) {
                     // Set new object and append the callback with some data.
                     $o = new \ArrayObject($args);
-                    $o->app = App::instance();
+                    //$o->app = App::instance();
                     $callback = $callback->bindTo($o);
                 } elseif(is_string($callback) && strpos($callback, '@') !== false) {
                     $fixcallback = explode('@', $callback, 2);
