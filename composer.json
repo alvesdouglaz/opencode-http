@@ -1,6 +1,6 @@
 {
   "name": "opencode/http",
-  "description": "",
+  "description": "The Opencode Http package",
   "homepage": "https://github.com/alvesdouglaz/opencode-http",
   "keywords": [ "umbrella",  "backfront", "skelleton", "opencode", "framework"],
   "license": "Apache-2.0",
